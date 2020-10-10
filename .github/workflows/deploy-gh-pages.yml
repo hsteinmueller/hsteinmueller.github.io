@@ -12,7 +12,7 @@ jobs:
             - name: Use Node.js
               uses: actions/setup-node@v1
               with:
-                node-version: 10.x
+                node-version: 12.x
             - name: npm install, build, export
               run: |
                 npm install
@@ -25,3 +25,4 @@ jobs:
                 REPO: self
                 BRANCH: gh-pages
                 FOLDER: out
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
