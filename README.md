@@ -1,3 +1,10 @@
+# todo
+
+- [ ] link on homepage
+- [ ] blog list by date + link to specific entry
+- [ ] tailwind css / post styling
+- [ ] raw loader
+
 # what is this 
 
 Source for my github-pages blog at: [https://hsteinmueller.github.io/](https://hsteinmueller.github.io/)
