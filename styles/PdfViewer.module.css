@@ -1,0 +1,12 @@
+.controls {
+  /* min-height: 100vh; */
+  /* padding: 0 0.5rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls button {
+  margin: 0.5rem;
+}

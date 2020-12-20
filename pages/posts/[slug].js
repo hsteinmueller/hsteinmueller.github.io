@@ -1,16 +1,17 @@
 import ReactMarkdown from "react-markdown";
+import Layout from "../../components/layout";
 
 import { getAllPostIds, getPostData } from "../api/posts";
 
 export default function Post({ content, postData }) {
   return (
-    <p>
+    <Layout>
       {postData.title}
       <br />
       {postData.date}
       <br />
       <ReactMarkdown source={content} />
-    </p>
+    </Layout>
   );
 }
 
