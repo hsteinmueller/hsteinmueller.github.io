@@ -5,6 +5,7 @@ pdf:
     - nextjs api: getserversideprops
     - using release for now, maybe can use artifacts
     - https://github.com/hsteinmueller/resume/releases/latest/download/resume_en.pdf
+  - ended up removing react-pdf and just using <object>, much nicer and with controls, no extra download and pages buttons needed
     
 secret:
   - keep it in source?
@@ -14,3 +15,5 @@ secret:
       - workflow and nextjs build can access this during build (works for static)
       - add hook to rebuild gh-pages when new release on resume
       - OR: save env during build time? it has to be saved in the source this way... hashed? (https://github.com/formatlos/next-env)
+    - if its static anyway, i dont need to fetch it from the other repo? and can keep it as static asset, would be faster too
+    - maybe i can trigger a workflow with the file as static asset from resume repo?

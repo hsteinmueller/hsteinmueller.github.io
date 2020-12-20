@@ -10,3 +10,11 @@
 .controls button {
   margin: 0.5rem;
 }
+
+.object {
+  width: 90vh;
+  /* header, footer, 2*margin */
+  /* height: 100vh; */
+  height: calc(100vh - 200px);
+  /* - 2 * 5rem); */
+}

@@ -9,12 +9,13 @@ export default function Blog() {
   return (
     <Layout>
       <h1 className={styles.title}>More soon! 😎</h1>
-      <div>
-        <p>In the mean time, check out my</p>
+      <h2>
+        In the mean time, check out my{" "}
         <Link href="/resume">
           <a>Resume</a>
         </Link>
-      </div>
+        !
+      </h2>
     </Layout>
   );
 }

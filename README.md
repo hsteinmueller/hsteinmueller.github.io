@@ -3,13 +3,12 @@
 ### priority
 
 - [x] integrate cv as pdf + download
+- [ ] style nav/header
 - [ ] blog list by date + link to specific entry
-- [ ] navbar
 
 ### maybe later
 
-- [ ] fix scroll to top when changing resume pages
-- [ ] nicer buttons
+- [ ] better pdf ci (see writeup)
 - [ ] raw loader
 - [ ] tailwind css / styling
 
