@@ -3,12 +3,6 @@
 ### priority
 
 - [x] integrate cv as pdf + download
-  - make resume repo public and host pdf as gh-page, access it via url: not good because public
-  - somehow download/access the artifact from private repo (github api, with credentials)
-    - using github api to get pdf, asset download wont work becuase of authorization of private repo
-    - nextjs api: getserversideprops
-    - using release for now, maybe can use artifacts
-    - https://github.com/hsteinmueller/resume/releases/latest/download/resume_en.pdf
 - [ ] blog list by date + link to specific entry
 - [ ] navbar
 

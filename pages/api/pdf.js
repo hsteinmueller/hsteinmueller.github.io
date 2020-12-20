@@ -1,4 +1,4 @@
-const token = "secret";
+const token = process.env.PAT
 const repo = "resume";
 const owner = "hsteinmueller";
 const api = "api.github.com/repos";

@@ -17,17 +17,7 @@ export default function Resume({ b64 }) {
 }
 
 // build time
-// export async function getStaticProps(context) {
-//   const b64 = await getPdfFromGithub();
-//   return {
-//     props: {
-//       ...b64,
-//     },
-//   };
-// }
-
-// each request
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   const b64 = await getPdfFromGithub();
   return {
     props: {
@@ -35,3 +25,13 @@ export async function getServerSideProps(context) {
     },
   };
 }
+
+// each request
+// export async function getServerSideProps(context) {
+//   const b64 = await getPdfFromGithub();
+//   return {
+//     props: {
+//       ...b64,
+//     },
+//   };
+// }

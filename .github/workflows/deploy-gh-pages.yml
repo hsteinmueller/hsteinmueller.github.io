@@ -16,6 +16,8 @@ jobs:
           node-version: 12.x
 
       - name: npm install, build, export
+        env:
+          PAT: ${{ secrets.pat }}
         run: |
           npm install
           npm run build

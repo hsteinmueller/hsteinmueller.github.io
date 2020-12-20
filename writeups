@@ -1,0 +1,16 @@
+pdf:
+  - make resume repo public and host pdf as gh-page, access it via url: not good because public
+  - somehow download/access the artifact from private repo (github api, with credentials)
+    - using github api to get pdf, asset download wont work becuase of authorization of private repo
+    - nextjs api: getserversideprops
+    - using release for now, maybe can use artifacts
+    - https://github.com/hsteinmueller/resume/releases/latest/download/resume_en.pdf
+    
+secret:
+  - keep it in source?
+  - during build time:
+    - github_token is only for repository
+    - personal access token as secret: ${{ secrets.pat }}
+      - workflow and nextjs build can access this during build (works for static)
+      - add hook to rebuild gh-pages when new release on resume
+      - OR: save env during build time? it has to be saved in the source this way... hashed? (https://github.com/formatlos/next-env)
