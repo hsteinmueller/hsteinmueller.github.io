@@ -17,4 +17,16 @@
   /* height: 100vh; */
   height: calc(100vh - 200px);
   /* - 2 * 5rem); */
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+@media (max-width: 600px) {
+  .object {
+    width: auto;
+    height: auto;
+  }
 }
