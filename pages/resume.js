@@ -10,7 +10,7 @@ const PdfViewer = dynamic(() => import("../components/pdfViewer"), {
 
 export default function Resume({ b64 }) {
   return (
-    <Layout>
+    <Layout title="Résumé">
       <PdfViewer pdf={"data:application/pdf;base64," + b64} />
     </Layout>
   );

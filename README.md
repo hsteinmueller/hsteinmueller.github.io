@@ -9,6 +9,7 @@
 ### maybe later
 
 - [ ] better pdf ci (see writeup)
+- [ ] typescript
 - [ ] raw loader
 - [ ] tailwind css / styling
 

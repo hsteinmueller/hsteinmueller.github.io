@@ -12,7 +12,7 @@ export default function Home() {
       <h2>
         In the mean time, check out my{' '}
         <Link href="/resume">
-          <a>Resume</a>
+          <a>Résumé</a>
         </Link>
         !
       </h2>

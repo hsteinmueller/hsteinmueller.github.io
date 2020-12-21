@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
         |
         <Link href="/resume">
-          <a>Resume</a>
+          <a>Résumé</a>
         </Link>
       </nav>
     </header>

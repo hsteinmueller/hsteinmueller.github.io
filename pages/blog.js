@@ -7,12 +7,12 @@ import styles from "../styles/Home.module.css";
 
 export default function Blog() {
   return (
-    <Layout>
+    <Layout title="blog">
       <h1 className={styles.title}>More soon! 😎</h1>
       <h2>
         In the mean time, check out my{" "}
         <Link href="/resume">
-          <a>Resume</a>
+          <a>Résumé</a>
         </Link>
         !
       </h2>
