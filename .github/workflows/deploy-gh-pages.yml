@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - nextjs
+  repository_dispatch:
+    types: [resume-event]
 jobs:
   build:
     runs-on: ubuntu-latest

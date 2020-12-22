@@ -6,6 +6,12 @@ pdf:
     - using release for now, maybe can use artifacts
     - https://github.com/hsteinmueller/resume/releases/latest/download/resume_en.pdf
   - ended up removing react-pdf and just using <object>, much nicer and with controls, no extra download and pages buttons needed
+  - OK: simplest solution is probably:
+    - keep pdf file in public folder and use that, no apis required
+    - in resume-repo workflow (only new tag): push new pdf to website repo and trigger build (doesnt work, no action for it)
+  - best for now:
+    - get pdf from release at build time
+    - trigger build in workflow from resume-repo
     
 secret:
   - keep it in source?
