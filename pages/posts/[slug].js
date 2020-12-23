@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../api/posts";
 
 export default function Post({ content, postData }) {
+  // TODO: layout, article, title, meta(date), post
   return (
     <Layout>
       {postData.title}
@@ -15,7 +16,7 @@ export default function Post({ content, postData }) {
   );
 }
 
-export async function getStaticPaths() {
+export function getStaticPaths() {
   // Return a list of possible value for id
   const paths = getAllPostIds();
   return {
@@ -25,7 +26,7 @@ export async function getStaticPaths() {
 }
 
 // params contains 'slug' because of [slug]
-export async function getStaticProps({ params }) {
+export function getStaticProps({ params }) {
   // Fetch necessary data for the blog post using params.id
   const { content, postData } = getPostData(params.slug);
   return {

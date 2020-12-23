@@ -4,7 +4,7 @@ import React from "react";
 import { getPdfFromGithub } from "./api/pdf";
 import Layout from "../components/layout";
 
-const PdfViewer = dynamic(() => import("../components/pdfViewer"), {
+const PdfViewer = dynamic(() => import("../components/pdf-viewer"), {
   ssr: false,
 });
 
