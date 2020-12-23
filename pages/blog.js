@@ -1,10 +1,7 @@
-import React from "react";
 import Link from "next/link";
-
+import React from "react";
 import Layout from "../components/layout";
-
 import styles from "../styles/Home.module.css";
-
 import { getAllPostIds, getPostData } from "./api/posts";
 
 export default function Blog({ posts }) {

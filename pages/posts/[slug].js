@@ -1,6 +1,5 @@
 import ReactMarkdown from "react-markdown";
 import Layout from "../../components/layout";
-
 import { getAllPostIds, getPostData } from "../api/posts";
 
 export default function Post({ content, postData }) {

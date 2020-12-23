@@ -1,8 +1,7 @@
 import dynamic from "next/dynamic";
 import React from "react";
-
-import { getPdfFromGithub } from "./api/pdf";
 import Layout from "../components/layout";
+import { getPdfFromGithub } from "./api/pdf";
 
 const PdfViewer = dynamic(() => import("../components/pdf-viewer"), {
   ssr: false,

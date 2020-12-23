@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Header from "./header";
-import Footer from "./footer";
-
 import styles from "../styles/Home.module.css";
+import Footer from "./footer";
+import Header from "./header";
 
 const preTitle = "hsteinmueller";
 
