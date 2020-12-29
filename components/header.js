@@ -8,11 +8,11 @@ export default function Header() {
         <Link href="/">
           <a>Home</a>
         </Link>
-        |
+        {/* | */}
         <Link href="/blog">
           <a>Blog</a>
         </Link>
-        |
+        {/* | */}
         <Link href="/resume">
           <a>Résumé</a>
         </Link>
