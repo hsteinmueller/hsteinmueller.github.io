@@ -1,0 +1,17 @@
+.list {
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 200px;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.li {
+  margin: 20px 0;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 1rem;
+}

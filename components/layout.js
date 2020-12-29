@@ -5,7 +5,7 @@ import Header from "./header";
 
 const preTitle = "hsteinmueller";
 
-export default function Layout({ children, title }) {
+export default function Layout({ children, title, style }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +15,7 @@ export default function Layout({ children, title }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className={styles.main}>{children}</main>
+      <main className={style ? style : styles.main}>{children}</main>
       <Footer />
     </div>
   );

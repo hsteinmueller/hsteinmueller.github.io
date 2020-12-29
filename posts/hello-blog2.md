@@ -1,6 +1,6 @@
 ---
-title: Hello Blog!
-date: "2021-01-01"
+title: Hello Blog2!
+date: "2021-01-07"
 ---
 
 [//]: # "# asdad ## adad"
